@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Title section design  */
+
+#title {
+  background-color: #ec546b;
+  padding: 1% 10% 5% 10%;
+}
+.nav-link {
+  color: white;
+}
+
+.navbar-brand {
+  color: white;
+}
+.nav-link:hover,
+.navbar-brand:hover {
+  border-bottom: 0.25px solid rgb(148, 105, 105);
+}
+
+.navbar {
+  margin-top: -2.5%;
+  font-size: 1.15rem;
+}
+
+.nav-link {
+  margin-left: 20px;
+  font-size: 1.25rem;
+}
+.left-part-title {
+  margin-top: 5%;
+}
+.logo-design {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+.me-6 {
+  margin-left: 1.2rem !important;
+}
+.dog-image {
+  width: 60%;
+  position: relative;
+}
+
+.head-style {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 600;
+  color: whitesmoke;
+  -webkit-text-stroke: 1px black;
+}
+
+.container-fluid {
+  padding: 0% 7%;
+}
+
+.btn-outline-light {
+  margin-left: 3%;
+}
+
+.download-btn {
+  padding: 2% 5%;
+  margin-top: 3%;
+  font-size: 1.25rem;
+  border-radius: 0.5rem;
+}
+
+/* Feature section design  */
+
+#features {
+  padding: 10% 12%;
+  color: rgb(255, 255, 255);
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5% 2%;
+}
+
+.icon-color {
+  color: #ef8172;
+}
+
+.icon-color:hover {
+  color: #ec546b;
+}
+
+#features h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+}
+
+#features p {
+  color: rgb(105, 104, 104);
+}
+
+/* Testimonial section  */
+
+#testimonials {
+  padding: 5% 10%;
+  text-align: center;
+  background-color: #ec8172;
+  color: whitesmoke;
+}
+
+#testimonials h2 {
+  font-size: 2.5rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.testimonial-img-holder {
+  margin-top: 3%;
+}
+
+.testimonial-img-holder em {
+  margin-left: 2%;
+  font-size: 1.25rem;
+}
+
+.testimonial-img-holder > img {
+  width: 15%;
+  border-radius: 50%;
+}
+
+/* Press section  */
+
+#press {
+  background-color: #ec8172;
+  text-align: center;
+  padding: 3% 8%;
+}
+#press img {
+  padding: 2% 2%;
+  width: 21%;
+}
+
+/* Pricing section  */
+
+#pricing {
+  padding: 5% 10%;
+  text-align: center;
+}
+
+#pricing h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1%;
+}
+
+#pricing p {
+  margin-bottom: 2%;
+}
+
+.card {
+  margin-top: 2%;
+}
+
+/* Call to action  */
+
+#cta {
+  height: 40vh;
+  width: 100%;
+  text-align: center;
+  padding: 10% 15%;
+  background-color: #ff4c68;
+}
+
+#cta h3 {
+  font-size: 2.5rem;
+}
+
+/* Footer styling */
+
+#footer {
+  text-align: center;
+  background-color: #fff;
+  font-size: 1.25rem;
+  padding: 5% 15%;
+}
+
+#footer p {
+  font-size: 1.5rem;
+}
+#footer p span {
+  font-weight: bold;
+}
+
+#footer .social-icon{
+  color: #000;
+}
+/* Media queries */
+
+@media (max-width: 1030px) {
+  .left-part-title {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .dog-image {
+    width: 45%;
+    margin-top: 7%;
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  #cta h3 {
+    font-size: 1.5rem;
+  }
+
+  #footer p {
+    font-size: 0.95rem;
+  }
+  #footer .social-icon {
+    font-size: 1em;
+    color: #000;
+  }
+}
